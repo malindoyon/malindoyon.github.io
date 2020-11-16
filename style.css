@@ -1,0 +1,167 @@
+body {
+  background-image: url("bars.png");
+  background-color: rgb(0, 0, 0);
+  text-align: center;    
+  color: rgb(255, 0, 119);
+}
+
+img {
+  background-size: cover;
+  width: 500px;
+  max-height: 500px;
+  margin-top: 2px;
+}
+
+h1 {
+  font-size: 65px;
+  font-style: oblique;
+}
+
+p {
+  font-size: 65px;
+  color: rgb(255, 255, 255);
+}
+
+p:hover {
+  color: black;
+  text-shadow:
+  10px 10px 0px #6432efe8, 
+  20px 20px 0px #0de7e7a1, 
+  30px 30px 0px #32e2226e, 
+  40px 40px 0px #c8ff0081, 
+  50px 50px 0px #ff00004d,
+  70px 70px 0px #ff00aa4d;
+  transition: 0.5s;
+}
+
+h1:hover {
+  color: rgba(255, 0, 119, 0);
+  transition: all ease-in 0.10;
+}
+
+input {
+ height: 70px;
+ width: 200px;
+ border-radius: 15px;
+ background-image: url("trippy.jpg");
+ color: white;
+ font-size: 50px;
+ font-family: fantasy;
+ float: left;
+ margin-top: 90px;
+}
+
+input:hover {
+  background: none;
+}
+
+::placeholder {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+}
+
+#toggleButton2 { 
+  padding: 20px 20px;
+  font-size: 25px;
+  border-radius: 200px;
+  background-image: url("eyes.gif");
+  background-size: cover;
+  cursor: pointer;
+  float: right;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#toggleButton { 
+  padding: 20px 20px;
+  font-size: 25px;
+  border-radius: 200px;
+  background-image: url("eyes.gif");
+  background-size: cover;
+  cursor: pointer;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#toggleButton:hover{
+  background-image: url("trippy.gif");
+  background-size: cover;
+}
+
+#toggleButton2:hover{
+  background-image: url("trippy.gif");
+  background-size: cover;
+  text-shadow:
+  10px 10px 0px #6432efe8, 
+  20px 20px 0px #0de7e7a1, 
+  30px 30px 0px #32e2226e, 
+  40px 40px 0px #c8ff0081, 
+  50px 50px 0px #ff00004d,
+  70px 70px 0px #ff00aa4d;
+  transition: 0.5s;
+  color: yellow;
+}
+
+a:link {
+  text-decoration: none;
+  color: red;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover{
+  color: yellow;
+  font-size: 30px;
+  text-shadow:
+  10px 10px 0px #6432efe8, 
+  20px 20px 0px #0de7e7a1, 
+  30px 30px 0px #32e2226e, 
+  40px 40px 0px #c8ff0081, 
+  50px 50px 0px #ff00004d,
+  70px 70px 0px #ff00aa4d,
+  100px 100px 0px #8400ff4d,
+  150px 150px 0px #0004ff4d,
+  -10px -10px 0px #6432efe8, 
+  -20px -20px 0px #0de7e7a1, 
+  -30px -30px 0px #32e2226e, 
+  -40px -40px 0px #c8ff0073, 
+  -50px -50px 0px #ff00004d,
+  -70px -70px 0px #ff00aa4d,
+  -100px -100px 0px #8400ff4d,
+  -150px -150px 0px #0004ff4d;
+}
+
+#pressMe {
+  padding: 100px 80px;
+  background-image: url("grey.jpg");
+  background-size: cover;
+  border-radius: 50%;
+  font-family: fantasy;
+  transition: all ease-in 500ms;
+  font-size: 50px;    
+  cursor: pointer;
+  float: left;
+}  
+
+#pressMe:hover {
+  background-color: rgb(255, 0, 255);
+  background-image: url("trippy.gif");
+  background-size: cover;
+  color: yellow;
+  font-size: 50px;
+  text-shadow:
+    10px 10px 0px #6432efe8, 
+    20px 20px 0px #0de7e7a1, 
+    30px 30px 0px #32e2226e, 
+    40px 40px 0px #fad11a4d;
+}
+
+.magic {
+  background-image: url("trippy3.gif");
+  background-repeat: repeat;    
+  color: rgba(188, 187, 255, 0);
+}
+
+.magic:hover {
+  background-image: url("trippy.gif");
+}

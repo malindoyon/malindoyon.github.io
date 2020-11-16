@@ -1,0 +1,1032 @@
+/* comment form */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Righteous";
+    background-color: #FEDDD6;
+}
+
+.homep {
+   
+    font-size: 25px;
+    margin-right: 300px;
+    margin-left: 300px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+
+}
+
+h1 {
+    font-size: 60px;
+    padding-top: 40px;
+    padding-bottom: 0px;
+    color: #C54C44;
+    text-align: center;
+}
+
+.headings {
+    margin-top: 100px;
+    color:black;
+}
+
+/*online flirting */
+
+.onlineFlirtingHeading {
+    color: black;
+    margin-top: 100px;
+}
+.onlineFlirtingParagraph {
+    color: black;
+
+}
+
+.onlineFlirtingBody {
+    background-image: url("onlineDateBackground\ copy.png");
+    background-attachment: fixed;
+    text-align: justify;
+    text-justify: inter-word;
+    align-content: center;
+    margin-right: 50px;
+}
+
+.headertip {
+    font-family:"Righteous";
+}
+
+.sometips {
+    padding-left: 340px;
+    padding-right: 340px;
+}
+
+
+/*style home page img*/
+.imgHome {
+    height: 390px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    position: fixed;
+    bottom: 0px;
+    left:32%;
+}
+
+/*NAVIGATION BAR */
+.navbar { /*this is the ul */
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px;
+    font-size: 30px;
+    background-color: #C54C44;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* NEEDS BOTH, TOP AND MARGIN TOP Position the navbar at the top of the page */
+    margin-top: 0%;
+    width: 100%; /* Full width */
+    margin-left: 0%;
+    left: 0px;
+    height: 70px;
+    z-index: 1000000;
+}
+/*navigation bar HOME BUTTON */
+.buttonHome {
+    padding: 0px;
+    display: block;
+    color: #FEDDD6;
+    background-color: #C54C44;
+    border: none;
+    font-family: "Righteous";
+    font-size: 30px;
+    padding: 0px;
+    text-decoration: none;
+    height: 70px;
+}
+
+.buttonHomeBut{
+    padding: 0px;
+    display: block;
+    color: #FEDDD6;
+    background-color: #C54C44;
+    border: none;
+    height: 70px;
+    font-family: "Righteous";
+    font-size: 30px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+/*this is the HOME button ... in case we need to style it */
+.hommie:hover{
+    color: #C54C44;
+    transition-duration: 0.3s;
+    height: 70px;
+}
+
+.buttonHomeBut:hover{
+    color: #C54C44;
+    background-image: url("trippy.gif");
+    transition-duration: 0.3s;
+}
+
+.buttonHome:hover{
+    color: #C54C44;
+    background-color: #FEDDD6;
+    transition-duration: 0.3s;
+}
+
+li:hover {
+    color: #C54C44;
+    cursor: pointer;
+}
+
+.homeLink {
+    text-decoration: none;
+    color: #FEDDD6;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    text-align: center;    
+}
+
+.homeLink:hover {
+    color: #C54C44;
+    background-color: #FEDDD6;    
+    transition-duration: 0.3s;
+}
+
+a {
+    text-decoration: none;
+    color: #FEDDD6;
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: center;
+}
+
+a:hover { 
+   color: #C54C44;
+} 
+
+/*CATEGORY PAGE*/
+.info {
+    margin-left: 300px;
+    margin-right: 300px;
+    margin-bottom: -50px;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+}
+
+.bodycat {
+    background-image: url("catBackground.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+/*two columns for buttons*/
+.column1 { /*left column*/
+float: left;
+width: 50%;
+padding: 50px;
+margin-top: 80px;
+}
+
+.column2 { /*right column*/
+    float: left;
+    width: 50%;
+    padding: 50px;
+}
+
+.row:after { /*DO WE NEED THIS ONE?*/
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*styling for list of category buttons*/
+.cat {
+    list-style: none;
+    display: inline-block;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    color: black;
+}
+
+.catlink { /*link on category buttons*/
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.catlink:hover { /*hover state category buttons*/
+    color: white;
+    }
+
+/* styling for category buttons */
+
+
+.buttonl { /* online flirting */
+    width: 300px;
+    height: 100px;
+    cursor: pointer;
+    color: #FEDDD6;
+    background-color: #C54C44;
+    font-family: "Righteous";
+    font-size: 25px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.catlink {
+    align-content: center;
+    width: 300px; 
+    padding: 30px; 
+}
+
+.buttonl:hover {
+    background-image: url("https://media1.giphy.com/media/PmLfuW4EZAb5seoiXD/giphy.gif?cid=ecf05e47r91vsmdkiercrbw9gos5x1mkjlb6boyr9rdt5r1r&rid=giphy.gif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.buttake { /* taking the step */
+    width: 300px;
+    height: 100px;
+    cursor:pointer;
+    color: #FEDDD6;
+    background-color: #C54C44;
+    font-family: "Righteous";
+    font-size: 25px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.buttake:hover {
+    background-image: url("https://media4.giphy.com/media/3o6Ztroynp3WpqLD1u/giphy.gif?cid=ecf05e47l3g6brlzc9l1kzz6qrqgdda3uhmph6zi1szf2073&rid=giphy.gif");
+    background-position:center;
+    background-repeat: no-repeat;
+}
+
+.buttpick { /* pick up lines */
+    width: 300px;
+    height: 100px;
+    cursor:pointer;
+    color: #FEDDD6;
+    background-color: #C54C44;
+    font-family: "Righteous";
+    font-size: 25px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.buttpick:hover {
+    background-image: url("https://media0.giphy.com/media/MeOtlA0qkNDwG7vduS/giphy.gif?cid=ecf05e47ar6exou8363x8cnmt1qril6qk691dgm4x32uf532&rid=giphy.gif");
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.buttfirst { /* first date */
+    width: 300px;
+    height: 100px;
+    cursor:pointer;
+    color: #FEDDD6;
+    background-color: #C54C44;
+    font-family: "Righteous";
+    font-size: 25px;
+    border-radius: 25px;
+    border: none;
+    margin-bottom: 40px;
+}
+
+.buttfirst:hover {
+    background-image: url("https://media4.giphy.com/media/l0DAI4Wz4KnI87lxC/giphy.gif?cid=ecf05e472qudkl1km3aebvvvirxmhztmg2f9jyaflcnxngsv&rid=giphy.gif");
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.buttbody { /* body language */
+    width: 300px;
+    height: 100px;
+    cursor:pointer;
+    color: #FEDDD6;
+    background-color: #C54C44;
+    font-family: "Righteous";
+    font-size: 25px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.buttbody:hover {
+    background-image: url("https://media0.giphy.com/media/mn827Gfu396RG/giphy.gif?cid=ecf05e47x7dvv2nnmyrusp3bh1bpdpy6ls33hunx2hyolhrv&rid=giphy.gif");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.buttanimal { /* animal kingdom */
+    width: 300px;
+    height: 100px;
+    cursor:pointer;
+    color: #FEDDD6;
+    background-color: #C54C44;
+    font-family: "Righteous";
+    font-size: 25px;
+    border-radius: 25px;
+    border: none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.buttanimal:hover {
+    background-image: url("https://media0.giphy.com/media/HTAOP7szoW6Wc/giphy.gif?cid=ecf05e471ji3m35x2w9iiks52vp1v6uytai854nof5ux0ylt&rid=giphy.gif");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.catbody {
+    color:black;
+    margin-top: 100px;
+}
+
+.part {
+    text-align: center;
+}
+
+.buttself { /* self care and confidence */
+    width: 300px;
+    height: 100px;
+    cursor:pointer;
+    color: #FEDDD6;
+    background-color: #C54C44;
+    font-family: "Righteous";
+    font-size: 25px;
+    border-radius: 25px;
+    border:none;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.buttself:hover{
+    background-image: url("https://media0.giphy.com/media/11wsZr0jbXc15m/giphy.gif?cid=ecf05e47okl5nm0pq79kh7398pf0pgnscizbqhdeu7rytvdk&rid=giphy.gif");
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.buttAn {
+    width: 200px;
+    height: 100px;
+    cursor:pointer;
+    color: #FEDDD6;
+    background-color: #C54C44;
+    font-family: "Righteous";
+    font-size: 15px;
+    border-radius: 25px;
+    border:none;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    left: 0;
+}
+
+.sideAnal {
+    width: 130px;
+    position: fixed;
+    z-index: 3;
+    top: 100px;
+    left: 0px;
+    background: #FEDDD6;
+    overflow-x: hidden;
+    padding: 8px 0;
+}
+
+.sideAnal a {
+    padding: 10px;
+    padding: auto;
+    height: 70px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+    color: #05121d;
+    display: flex;
+    margin: 01px;
+    background-color: #C54C44;
+  }
+
+
+/* make a footer */
+footer {
+    text-align: center;
+    padding: 0px;
+    background-color: black;
+    color: white;
+   }
+
+
+/* TEST buttons and answer section */
+.question {
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.testbody {
+    background-image: url("catTestBackground\ copy.png");
+    background-size: cover;
+}
+
+.buttonAnswer {
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    background-color: #C54C44;
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 320px;
+    height: 90px;
+    margin-left: 15px;
+    margin-right: 15px;
+    
+}
+
+body{
+    text-align: center;    
+}
+
+.hidden{
+    display: none;
+}
+
+.result {
+    font-size: 30px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.testQuestion {
+    font-size: 40px;
+    color: #C54C44;
+    font-family: "Righteous";
+    margin-top: -60px;
+    margin-bottom: 100px;
+    top: 0px;
+}
+
+img {
+    height: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+
+.wow {
+    height: 150px;
+}
+
+
+/*Pick up line generator*/
+.bodypickup {
+    background-image: url("blurryheart.gif");
+    background-size: cover;
+    background-position-y: -250px;
+    text-align: center;
+    margin-top: 150px;
+    font: "Righteous";
+    font-size: 40px;    
+}
+
+.h1pickup {
+    color: black;
+}
+
+#container {
+background-image: url("catPeakBackground\ copy.png");
+background-size: cover;
+height: 320px;
+width: 750px;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 50px;
+text-align: center;
+font-size: 30px;
+padding: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+color: black;
+}
+
+#btn {
+    margin: 50px auto;
+    height: 50 px;
+    width: 250px;
+    font-size: 25px;
+    background-color: #C54C44;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    color:black;
+}
+
+#btn:hover{
+    margin: 50px auto;
+    height: 50 px;
+    width: 250px;
+    font-size: 25px;
+    background-color: black;
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+    color: white;
+}
+
+/*ANIMAL KINGDOM STYLES */
+.bodyAn{
+    background-image: url("animalsDateBackground\ copy.png");
+    background-attachment: fixed;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.anFlirt {
+    font-size: 30px;
+    margin-top: 0px;
+    top: 0px;
+    text-align: center;
+}
+
+.animalClass {
+    background-color: #C54C44;
+    height: 2000x;
+    width: 1000px;
+    margin: auto;    
+    padding: 20px;
+    font-size: 20px;
+    opacity: 90%;
+}
+
+.catA {
+    color: black;
+    margin-bottom: 0px;
+    margin-top: 100px;
+}
+
+.imgAn {
+    height: 200px;
+    padding: 10px;
+}
+
+.pinguins {
+    background-color: #FEDDD6;
+    height: 500px;
+    width: 900px;
+    margin: 30px;
+    padding: 10px;
+}
+
+.animalP {
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.horses {
+    background-color: #FEDDD6;
+    height: 550px;
+    width: 900px;
+    margin: 30px;
+    padding: 10px;
+}
+
+.dogs {
+    background-color: #FEDDD6;
+    height: 500px;
+    width: 900px;
+    margin: 30px;
+    padding: 10px;
+}
+
+.birds {
+    background-color: #FEDDD6;
+    height: 550px;
+    width: 900px;
+    margin: 30px;
+    padding: 10px;
+}
+
+.bears {
+    background-color: #FEDDD6;
+    height: 450px;
+    width: 900px;
+    margin: 30px;
+    padding: 10px;
+}
+
+.cats {
+    background-color: #FEDDD6;
+    height: 530px;
+    width: 900px;
+    margin: 30px;
+    padding: 10px;
+}
+
+/*BODY LANGUAGE */
+.selfCareBody {
+    background-image: url("catBodyLanBackground\ copy.png");
+    background-attachment: fixed;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.selfCareHeading {
+    color: black;
+    margin-top: 100px;
+}
+
+.selfC {
+    background-color: #C54C44;
+    height: 2000x;
+    width: 1000px;
+    margin: auto;    
+    padding: 20px;
+    font-size: 20px;
+    opacity: 90%;
+}
+
+.pselfC {
+    background-color: #FEDDD6;
+    height: auto;
+    width: 900px;
+    margin: 30px;
+    padding-right: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-content: center;
+    padding-left: 50px;
+}
+
+.pSpecialSelf {
+    width: 900px;
+    margin: auto; 
+    color: black;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+
+}
+
+
+/*TAKING THE FIRST STEP STYLES */
+
+.bodytaking {
+    background-image: url("takeTheStepBackground.png");
+    background-size: contain;
+    repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.speech-bubble {
+    position: relative;
+    background: #ad5045;
+    border-radius: .4em;
+}
+
+.speech-bubble:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 23px solid transparent;
+    border-top-color: #ad5045;
+    border-bottom: 0;
+    border-left: 0;
+    margin-left: -11.5px;
+    margin-bottom: -23px;
+}
+
+.speech-bubble-overview {
+    position: relative;
+    background: #ad5045;
+    border-radius: .4em;
+    width: 300px;
+    margin-left: 400px;
+    margin-top: 100px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.speech-bubble-overview:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 23px solid transparent;
+    border-top-color: #ad5045;
+    border-bottom: 0;
+    border-left: 0;
+    margin-left: -11.5px;
+    margin-bottom: -23px;
+}
+
+.Titel {
+    color: azure;
+}
+
+.inline-text {
+color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 30px;
+  padding-left: 30px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.speech-bubble-tip1 {
+    position: relative;
+    background: #ad5045;
+    border-radius: .4em;
+    width: 500px;
+    margin-top: 100px;
+    margin-left: 000px;
+    margin-right: 200px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: right; 
+}
+
+.speech-bubble-tip1:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 23px solid transparent;
+    border-top-color: #ad5045;
+    border-bottom: 0;
+    border-left: 0;
+    margin-left: -11.5px;
+    margin-bottom: -23px;
+}
+
+.speech-bubble-tip2 {
+    position: relative;
+    background: #ad5045;
+    border-radius: .4em;
+    width: 500px;
+    margin-top: 400px;
+    margin-bottom: auto;
+    margin-left: 200px;
+    margin-right: 00px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    display: block;
+}
+
+.speech-bubble-tip2:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 23px solid transparent;
+    border-top-color: #ad5045;
+    border-bottom: 0;
+    border-left: 0;
+    margin-left: -11.5px;
+    margin-bottom: -23px;
+}
+
+.speech-bubble-tip3 {
+    position: relative;
+    background: #ad5045;
+    border-radius: .4em;
+    width: 500px;
+    margin-top: 300px;
+    margin-bottom: 20px;
+    margin-left: 00px;
+    margin-right: 200px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: right;
+    display: block;
+
+}
+
+.speech-bubble-tip3:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 23px solid transparent;
+    border-top-color: #ad5045;
+    border-bottom: 0;
+    border-left: 0;
+    margin-left: -11.5px;
+    margin-bottom: -23px;
+}
+
+.speech-bubble-tip4 {
+    position: relative;
+    background: #ad5045;
+    border-radius: .4em;
+    width: 500px;
+    margin-top: 300px;
+    margin-bottom: auto;
+    margin-left: 200px;
+    margin-right: 00px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    display: block;
+
+}
+
+.speech-bubble-tip4:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 23px solid transparent;
+    border-top-color: #ad5045;
+    border-bottom: 0;
+    border-left: 0;
+    margin-left: -11.5px;
+    margin-bottom: -23px;
+}
+
+.speech-bubble-tip5 {
+    position: relative;
+    background: #ad5045;
+    border-radius: .4em;
+    width: 500px;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    margin-left: 00px;
+    margin-right: 200px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: right;
+    display: block;
+
+}
+
+.speech-bubble-tip5:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border: 23px solid transparent;
+    border-top-color: #ad5045;
+    border-bottom: 0;
+    border-left: 0;
+    margin-left: -11.5px;
+    margin-bottom: -23px;
+}
+
+/*First date Category*/
+.firstDateBody {
+    background-image: url("FirstDateBackground.png");
+    background-attachment: fixed;
+}
+
+.pFirstdates {
+    background-attachment: fixed;
+    text-align: justify;
+    text-justify: inter-word;
+    font-size: 30px;
+    padding-left: 250px;
+    padding-right: 250px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.firstdate {
+    background-color: #C54C44;
+    height: 2000x;
+    width: 1000px;
+    margin: auto;    
+    padding: 20px;
+    font-size: 20px;
+    opacity: 90%;
+}
+
+.pfirstdate {
+    background-color: #FEDDD6;
+    height: auto;
+    width: 900px;
+    margin: 30px;
+    padding: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+/*DOS AND DONTS */
+.split {
+    height: 100%;
+    width: 50%;
+    position: fixed;
+    z-index: 1;
+    top: 70px;
+  }
+
+  .doDontH1 {
+      font-size: 160px;
+      color: #FEDDD6;
+      padding: 0px; 
+  }
+
+  .dosDontParagraph {
+      padding-bottom: 50px;
+      padding-top: 10px;
+      margin: 20px;
+      font-family: Verdana, Geneva, Tahoma, sans-serif;
+      text-align: justify;
+        text-justify: inter-word;
+  }
+
+  .dosAndDontsStyle {
+    background-color: #C54C44;
+    background-attachment: fixed;
+    width: 600px;
+    text-align: center;
+  }
+
+  .doDontImg {
+    height: 300px;
+  }
+
+  .dosDontText {
+      color: black;
+      margin: 20px;
+      margin-bottom: 70px;
+      background-color: #FEDDD6;
+      padding: 20px;
+      font-size: 18px;
+  }
+
+  .doDontH2 {
+      color: black;
+      background-color:#FEDDD6;
+      font-size: 30px;
+      margin: 20px;
+      text-align: center;
+      font-family: Righteous;
+  }
+
+  .paraB {
+      font-size: 70px;
+      margin-top: -150px;
+  }
+
+  .left {
+    left: 0;
+    background-color: #FEDDD6;
+    overflow-x: hidden;  
+    margin-left: 60px;
+  }
+  
+  .right {
+    right: 0;
+    background-color: #FEDDD6;
+    overflow-x: hidden;
+    margin-left: 20px;
+    padding-left: 50px;
+    
+  }
+  
+  .centered {
+    position: absolute;
+    text-align: center;
+  }
+  

@@ -1,0 +1,488 @@
+
+<!--commnand D for changing same tag at the same time, txx axel-->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link href="flirt.css" rel="stylesheet" /> 
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet" >
+    <script src="flirt.js" defer></script>
+  </head>
+
+  <body class="testbody">
+        <!--MENU-->
+        <ul class="navbar">
+          <li><button class="buttonHomeBut"><a class="hommie" href="index.html">HOME</a></button></li>
+          <li><button class="buttonHome"><a class="homeLink" href="test.html">TEST</a></button></li>
+          <li><button class="buttonHome"><a class="homeLink" href="pick.html">PICK UP LINES</a></button></li>
+          <li><button class="buttonHome"><a class="homeLink" href="categories.html">CATEGORIES</a></button></li>
+          <li><button class="buttonHome"><a class="homeLink" href="dos&donts.html">DO'S & DONT'S</a></button></li>
+      </ul>
+
+
+      <h1 class="headings">TEST</h1>      
+      <!--ARE YOU A?-->
+    <div id="question1">
+      <h1 class="testQuestion">What kind of date should you go on?</h1>
+      <img class="wow" src="wow.gif">
+      <h2 class="question">What kind of little thing are you?</h2>
+      <button class="buttonAnswer" onclick="goToStep('meet', 'question1')"
+      > Night owl
+      </button>
+
+      <button class="buttonAnswer" onclick="goToStep('question2', 'question1')"
+      > Up with the rooster
+      </button>
+    </div>
+
+
+    <div id="question2" class="hidden">
+      <h2 class="question">Do you want to meet?</h2>
+      <button class="buttonAnswer" onclick="goToStep('question5', 'question2')"
+      >
+      <!--NIGHT OWEL-->
+        Of course!!!
+      </button>
+
+      <button class="buttonAnswer" onclick="goToStep('question3', 'question2')"
+      >
+        There's a pandemic! Hell no!
+      </button>
+    </div>
+
+
+    <div id="question3" class="hidden">
+      <h2 class="question">Well...</h2>
+      <button class="buttonAnswer" onclick="goToStep('question4','question3')"
+      >
+        Result
+      </button>
+    </div>
+
+    <div id="question4" class="hidden">
+        <h2 class="result">Lol okay Zoom [...]</h2>
+        <button class="buttonAnswer" onclick="goToStep('question1','question4','question2')"
+        >
+          Go back to the beginning
+        </button>
+        <img src="online.gif">
+    </div>
+
+
+    <div id="question5" class="hidden">
+      <h2 class="question">Do you like it when</h2>
+      <button class="buttonAnswer" onclick="goToStep('question6', 'question5')"
+      >
+        you're surrounded by people?
+      </button>
+
+      <button class="buttonAnswer" onclick="goToStep('question11', 'question5')"
+      >
+        it's just you and your date?
+      </button>
+    </div>
+
+
+    <div id="question6" class="hidden">
+      <h2 class="question">Okay... So, let's see... Are you:</h2>
+      <button class="buttonAnswer" onclick="goToStep('question7', 'question6')"
+      >
+        hungry?
+      </button>
+
+      <button class="buttonAnswer" onclick="goToStep('question9', 'question6')"
+      >
+        thirsty?
+      </button>
+    </div>
+
+
+    <div id="question7" class="hidden">
+      <h2 class="question">Well...</h2>
+      <button class="buttonAnswer" onclick="goToStep('question8','question7')"
+      >
+        Result
+      </button>
+    </div>
+
+    <div id="question8" class="hidden">
+      <h2 class="result">Go for a chocolate taste or a cheese taste!</h2>
+      <button class="buttonAnswer" onclick="goToStep('question1','question8')"
+      >
+        Go back to the beginning        
+      </button>
+      <img src="hungry.gif">
+    </div>
+
+
+    <div id="question9" class="hidden">
+      <h2 class="question">Well...</h2>
+      <button class="buttonAnswer" onclick="goToStep('question10', 'question9')"
+      >
+        Result
+      </button>
+    </div>
+
+    <div id="question10" class="hidden">
+      <h2 class="result">Go for a fika, fika fika fika</h2>
+      <button class="buttonAnswer" onclick="goToStep('question1', 'question10')"
+      >
+        Go back to the beginning
+      </button>
+      <img src="tongue.gif">
+    </div>
+
+
+    <div id="question11" class="hidden">
+      <h2 class="question">Do you feel either</h2>
+      <button class="buttonAnswer" onclick="goToStep('question12', 'question11')"
+      >
+        chill?
+      </button>
+
+      <button class="buttonAnswer" onclick="goToStep('question13', 'question11')"
+      >
+        energized?
+      </button>
+    </div>
+    
+
+    <div id="question12" class="hidden">
+      <h2 class="question">Well...</h2>
+      <button class="buttonAnswer" onclick="goToStep('question14', 'question12')"
+      >
+        Result
+      </button>
+    </div>
+
+    <div id="question14" class="hidden">
+      <h2 class="result">Go for a walk, in a remote place like, I don't know... Congo</h2>
+      <button class="buttonAnswer" onclick="goToStep('question1', 'question14')"
+      >
+        Go back to the beginning
+      </button>
+      <img src="tarzan.gif">
+    </div>
+
+
+    <div id="question13" class="hidden">
+      <h2 class="question">Well...</h2>
+      <button class="buttonAnswer" onclick="goToStep('question15', 'question13')"
+      >
+        Result
+      </button>
+    </div>
+
+
+    <div id="question15" class="hidden">
+      <h2 class="result">Do an activity together, like climbing a wall! Meooooooww</h2>
+      <button class="buttonAnswer" onclick="goToStep('question1', 'question15')"
+      >
+        Go back to the beginning
+      </button>
+      <img src="fall.gif">
+    </div>
+
+    <!--DO YOU WANT TO MEET THEM?-->
+    <div id="meet" class="hidden">
+      <h2 class="question">Do You Want To Meet Them?</h2>
+      <button class="buttonAnswer" onclick="goToStep('doYou', 'meet')"
+      >      
+        Yes!!!!
+      </button>
+      <button
+        class="buttonAnswer"
+        onclick="goToStep('pandemic', 'meet')"
+      >
+        There's a pandemic!!!
+      </button>
+    </div>
+    <div id="pandemic" class="hidden">
+      <h2 class="question">Well...</h2>
+      <button class="buttonAnswer" onclick="goToStep('pandemic1', 'pandemic')"
+      >
+        Result
+      </button>
+    </div>
+     <!-- RESULT THERE'S A PANDEMIC!-->
+     <div id="pandemic1" class="hidden">
+      <h2 class="result">You should do a Zoom-date!</h2>
+      <button class="buttonAnswer" onclick="goToStep('question1','pandemic1')"
+      >
+        Go back to the beginning
+      </button>
+      <img src="online.gif">   
+    </div>
+
+
+
+
+<!--*LEFT CLICK* DO YOU LIKE IT WHEN -->
+    <div id="doYou" class="hidden">
+      <h2 class="question">Do You Like It When</h2>
+      <button
+        class="buttonAnswer"
+        onclick="goToStep('areYou', 'doYou')"
+      >
+        You're among other people?
+      </button>
+      <button
+        class="buttonAnswer"
+        onclick="goToStep('feel', 'doYou')"
+      >
+        It's just you and your date?
+      </button>
+    </div>
+
+   <!--Do you feel either?-->
+  <div id="feel" class="hidden">
+ <h2 class="question">Do you feel either</h2>
+     <button
+     class="buttonAnswer"
+     onclick="goToStep('chill', 'feel')"
+   >
+     Chill...
+    </button>
+    <button
+    class="buttonAnswer"
+     onclick="goToStep('energised', 'feel')"
+     >
+    Energised!!!
+     </button>
+     </div>
+
+
+ <!--Energised!-->
+ <div id="energised" class="hidden">
+  <h2 class="question">Okay then Duracell. You look like you like walking!</h2>
+  <button
+    class="buttonAnswer"
+    onclick="goToStep('actually', 'energised')"
+  >
+   Actually..!
+  </button>
+  <button
+    class="buttonAnswer"
+    onclick="goToStep('what?', 'energised')"
+  >
+    What?
+  </button>
+</div>
+
+ <!--What?-->
+ <div id="what?" class="hidden">
+  <h2 class="question">Yeah, maybe not then. I know the perfect thing for you to try..!</h2>
+  <button
+    class="buttonAnswer"
+    onclick="goToStep('result5', 'what?')"
+  >
+   VIEW RESULT
+  </button>
+</div>
+
+  <!--RESULTS 5 -->
+  <div id="result5" class="hidden">
+    <h2 class="question">Well Then</h2>
+    <h2>I'm just gonna go out on a limb and say that you should ice skate. 
+      What could go wrong?</h2>
+    
+    <button
+      class="buttonAnswer"
+      onclick="goToStep('question1', 'result5')"
+    >
+      Start over?
+    </button>
+    <img src="iceSkate.gif">
+  </div>
+
+                  
+  <!--actually results-->
+ <div id="actually" class="hidden">
+  <h2 class="question">We think we know what could be a real homerun for you and your date..!</h2>
+  <button
+    class="buttonAnswer"
+    onclick="goToStep('result6', 'actually')"
+  >
+   VIEW RESULT
+  </button>
+</div>
+
+  <!--RESULTS 5 -->
+  <div id="result6" class="hidden">
+    <h2 class="question">Well Then</h2>
+    <h2 class="result">You should go climbing! 
+      Either inside in one of those arenas, or outside. 
+      Who could resist using the pickup-line "I fell so hard for you!"?</h2>
+
+    <button
+      class="buttonAnswer"
+      onclick="goToStep('question1', 'result6')"
+    >
+      Start over?
+    </button>
+    <img src="climbing.gif">
+  </div>
+
+
+  
+ <!--YOURE HERE LOOK OVER HERE. YOURE GONNA DO ACTUALLY ON ENERGISED--> 
+
+
+ <!--Chill?-->
+ <div id="chill" class="hidden">
+     <h2 class="question">Well then, hoooow chill?</h2>
+        <button
+          class="buttonAnswer"
+          onclick="goToStep('justChill', 'chill')"
+          >
+      Just Chill...
+      </button>
+    <button
+      class="buttonAnswer"
+     onclick="goToStep('horny', 'chill')"
+     >
+      Horny chill
+    </button>
+    </div>
+
+     <!--HORNY-->
+       <div id="horny" class="hidden">
+        <h2 class="question">Oh, that kind of chill. I feel you bro</h2>
+        <button
+          class="buttonAnswer"
+           onclick="goToStep('result4', 'horny')"
+            >
+            Just Chill...
+           </div>
+
+        <!--RESULTS 4 -->
+         <div id="result4" class="hidden">
+            <h2 class="question">Well Then</h2>
+             <h2 class="result">Get some of that Netflix 'n' Chill!    
+               ...Are you still watching?</h2>
+
+           <button
+            class="buttonAnswer"
+          onclick="goToStep('question1', 'result4')"
+           >
+          Start over?
+         </button>
+         <img src="oh yes.gif">
+         </div>
+                        
+
+
+      <!--Just chill...-->
+     <div id="justChill" class="hidden">
+     <h2 class="question">I see how it is. You actually ment it... Ok</h2>
+   <button
+     class="buttonAnswer"
+    onclick="goToStep('result3', 'justChill')"
+         >
+      See Results
+ </div>
+
+<!--RESULTS 3 -->
+    <div id="result3" class="hidden">
+    <h2 class="question">Well Then</h2>
+   <h2 class="result">Get some B&J Netflix 'n' Chill bby and start watching!</h2>
+                        
+    <button
+   class="buttonAnswer"
+    onclick="goToStep('question1', 'result3')"
+    >
+   Start over?
+    </button>
+    <img src="oh yes.gif">
+   </div>
+                        
+
+
+
+    <!--ARE YOU -->
+    <div id="areYou" class="hidden">
+      <h2 class="question">Are You</h2>
+      <button
+        class="buttonAnswer"
+        onclick="goToStep('well', 'areYou')"
+      >
+        Hungry?
+      </button>
+      <button
+        class="buttonAnswer"
+        onclick="goToStep('weKnew', 'areYou')"
+      >
+        Thirsty?
+      </button>
+    </div>
+
+    <!-- WELL THEN -->
+      <div id="weKnew" class="hidden">
+        <h2 class="question">We knew you were thirsty, you rascal</h2>
+        <button
+        class="buttonAnswer"
+         onclick="goToStep('result2', 'weKnew')"
+           >
+          SEE RESULT
+         </button>
+       </div>
+
+
+    <!--RESULTS 1 -->
+            <div id="result2" class="hidden">
+                <h2 class="question">Well Then</h2>
+                 <h2 class="result">Are you just gonna stand there, or are you going to get me a drink?!</h2>
+
+                <button
+                class="buttonAnswer"
+                 onclick="goToStep('question1', 'result2')"
+                    >
+                     Start over?
+                  </button>
+                  <img src="beer.gif">
+                 </div>
+
+     <!-- WELL THEN -->
+       <div id="well" class="hidden">
+         <h2 class="question">Oh, are you hungry little one? Well...</h2>
+         <button
+           class="buttonAnswer"
+           onclick="goToStep('result1', 'well')"
+         >
+           SEE RESULT
+         </button>
+       </div>
+
+    <!--RESULTS 1 -->
+    <div id="result1" class="hidden">
+      <h2 class="question">Well Then</h2>
+      <h2 class="result">You should go to DINNER!</h2>
+
+      <button
+        class="buttonAnswer"
+        onclick="goToStep('question1', 'result1')"
+      >
+        Start over?
+      </button>
+      <img src="yess.gif">
+    </div>
+
+    
+    <!--PLACEHOLDER QUESTIONS 
+    <div id="question1" class="hidden">
+      <h2 class="question">Well Then</h2>
+      <h1>PLACEHOLDER FOR CLARA</h1>
+
+      <button
+        class="buttonAnswer"
+        onclick="goToStep('question1', 'question1')"
+      >
+        Start over?
+      </button>
+    </div> -->
+
+
+  </body>
+</html>
